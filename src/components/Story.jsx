@@ -1,7 +1,7 @@
 import gsap from "gsap";
 import { useRef } from "react";
 
-import Button from "./Button";
+// import Button from "./Button";
 import AnimatedTitle from "./AnimatedTitle";
 
 const FloatingImage = () => {
@@ -110,11 +110,12 @@ const FloatingImage = () => {
                 Bring your vision, and shape what it becomes.
             </p>
 
-            <Button
+            {/* <Button
               id="realm-btn"
               title="View our Portfolio"
               containerClass="mt-5"
-            />
+              href='#portfolio'
+            /> */}
           </div>
         </div>
       </div>

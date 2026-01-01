@@ -6,6 +6,7 @@ import Story from "./components/Story";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import BrandTransformations from "./components/BrandTransformation";
+import Portfolio from "./components/Portfolio";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <About />
       <BrandTransformations/>
       {/* <Features /> */}
+      <Portfolio/>
       <Story />
       <Contact />
       <Footer />

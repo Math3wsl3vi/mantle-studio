@@ -4,7 +4,7 @@ import { useWindowScroll } from "react-use";
 import { useEffect, useRef, useState } from "react";
 
 
-const navItems = ["About", "Contact"];
+const navItems = ["About", "Portfolio", "Contact"];
 
 const NavBar = () => {
   // State for toggling audio and visual indicator

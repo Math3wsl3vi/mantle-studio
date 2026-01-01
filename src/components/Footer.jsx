@@ -1,15 +1,16 @@
-import { FaDiscord, FaTwitter, FaYoutube, FaMedium } from "react-icons/fa";
+import { FaLinkedinIn, FaInstagram, FaGithub } from "react-icons/fa";
+import { FaX } from "react-icons/fa6";
 
 const socialLinks = [
-  { href: "https://discord.com", icon: <FaDiscord /> },
-  { href: "https://twitter.com", icon: <FaTwitter /> },
-  { href: "https://youtube.com", icon: <FaYoutube /> },
-  { href: "https://medium.com", icon: <FaMedium /> },
+  { href: "https://medium.com", icon: <FaLinkedinIn /> },
+  { href: "https://discord.com", icon: <FaGithub /> },
+  { href: "https://twitter.com", icon: <FaInstagram /> },
+  { href: "https://youtube.com", icon: <FaX /> },
 ];
 
 const Footer = () => {
   return (
-    <footer className="w-screen bg-[#5542ff] py-4 text-black">
+    <footer className="w-screen bg-[#1d1d1f] py-4 text-white">
       <div className="container mx-auto flex flex-col items-center justify-between gap-4 px-4 md:flex-row">
         <p className="text-center text-sm font-light md:text-left">
           Mantle Studio 2026. All rights reserved
@@ -22,7 +23,7 @@ const Footer = () => {
               href={link.href}
               target="_blank"
               rel="noopener noreferrer"
-              className="text-black transition-colors duration-500 ease-in-out hover:text-white"
+              className="text-white transition-colors duration-500 ease-in-out hover:text-white"
             >
               {link.icon}
             </a>

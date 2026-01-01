@@ -16,7 +16,7 @@ const Hero = () => {
   const [loading, setLoading] = useState(true);
   const [loadedVideos, setLoadedVideos] = useState(0);
 
-  const totalVideos = 4;
+  const totalVideos = 5;
   const nextVdRef = useRef(null);
 
   const handleVideoLoad = () => {
@@ -154,12 +154,14 @@ const Hero = () => {
              Make it UNDENIABLE <br /> Make it INFECTIOUS
             </p>
 
-            <Button
-              id="watch-trailer"
-              title="CALL ME"
-              leftIcon={<TiLocationArrow />}
-              containerClass="bg-yellow-300 flex-center gap-1"
-            />
+            <a href="mailto:levimathews9841@gmail.com">
+              <Button
+                id="watch-trailer"
+                title="Email us"
+                leftIcon={<TiLocationArrow />}
+                containerClass="bg-yellow-300 flex-center gap-1"
+              />
+            </a>
           </div>
         </div>
       </div>
